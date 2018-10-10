@@ -2,9 +2,7 @@ package com.irmansyah.myfootball.ui.team
 
 import com.irmansyah.myfootball.data.DataManager
 import com.irmansyah.myfootball.ui.base.BasePresenter
-import com.irmansyah.myfootball.utils.SchedulerProvider
 import android.util.Log
-import com.irmansyah.myfootball.data.model.Team
 import com.irmansyah.myfootball.utils.EspressoIdlingResource
 import com.irmansyah.myfootball.utils.ScProvider
 import io.reactivex.Observable

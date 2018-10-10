@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,7 +18,6 @@ import com.irmansyah.myfootball.data.model.Match
 import com.irmansyah.myfootball.ui.base.BaseFragment
 import com.irmansyah.myfootball.ui.detailMatch.DetailMatchActivity
 import com.irmansyah.myfootball.ui.main.MainActivity
-import com.irmansyah.myfootball.ui.match.MatchFragment
 import com.irmansyah.myfootball.ui.match.NextMatchCallback
 import com.irmansyah.myfootball.utils.extension.invisible
 import com.irmansyah.myfootball.utils.extension.visible

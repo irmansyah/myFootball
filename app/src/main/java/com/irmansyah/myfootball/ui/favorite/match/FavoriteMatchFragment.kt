@@ -13,7 +13,6 @@ import com.irmansyah.myfootball.data.model.FavoriteMatch
 import com.irmansyah.myfootball.data.model.Match
 import com.irmansyah.myfootball.ui.base.BaseFragment
 import com.irmansyah.myfootball.ui.detailMatch.DetailMatchActivity
-import com.irmansyah.myfootball.ui.match.prev.PrevMatchAdapter
 import kotlinx.android.synthetic.main.fragment_favorite_match.*
 import org.jetbrains.anko.db.classParser
 import org.jetbrains.anko.db.select

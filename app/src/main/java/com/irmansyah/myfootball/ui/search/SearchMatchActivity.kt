@@ -3,9 +3,7 @@ package com.irmansyah.myfootball.ui.search
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import android.util.Log
 import android.view.Menu
-import android.view.MenuInflater
 import android.view.MenuItem
 import com.irmansyah.myfootball.R
 import com.irmansyah.myfootball.data.model.Match
@@ -60,7 +58,7 @@ class SearchMatchActivity : BaseActivity(), SearchMatchView {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater?.inflate(R.menu.menu_team, menu)
+        menuInflater.inflate(R.menu.menu_team, menu)
         val item = menu?.findItem(R.id.action_search)
         search_match_search_view.setMenuItem(item)
         setSearchView()

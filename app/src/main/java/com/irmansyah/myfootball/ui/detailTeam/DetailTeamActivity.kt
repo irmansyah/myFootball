@@ -25,7 +25,6 @@ class DetailTeamActivity : BaseActivity(), DetailTeamView {
     companion object {
         const val TAG = "DetailTeamActivity"
         const val DETAIL_TEAM_INTENT = "DETAIL_TEAM_INTENT"
-        const val DETAIL_MATCH_INTENT = "DETAIL_MATCH_INTENT"
     }
 
     private lateinit var detailTeamPagerAdapter: DetailTeamPagerAdapter
@@ -40,12 +39,12 @@ class DetailTeamActivity : BaseActivity(), DetailTeamView {
 
     fun setOnPlayerRefreshListener(playerCallback: PlayerCallback) {
         this.playerCallback = playerCallback
-        playerCallback?.fetchPlayer(mTeam?.idTeam)
+        playerCallback.fetchPlayer(mTeam?.idTeam)
     }
 
     fun setOnOverviewRefreshListener(overviewCallback: OverviewCallback) {
         this.overviewCallback = overviewCallback
-        overviewCallback?.fetchOverview(mTeam?.strDescriptionEN)
+        overviewCallback.fetchOverview(mTeam?.strDescriptionEN)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

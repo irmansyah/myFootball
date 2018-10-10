@@ -22,7 +22,7 @@ class FavoritePagerAdapter(fragmentManager: FragmentManager) : FragmentStatePage
         }
     }
 
-    internal fun setCount(count: Int) {
+    fun setCount(count: Int) {
         this.tabCount = count
     }
 }

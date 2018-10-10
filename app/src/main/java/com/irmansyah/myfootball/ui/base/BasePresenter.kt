@@ -2,7 +2,6 @@ package com.irmansyah.myfootball.ui.base
 
 import com.irmansyah.myfootball.data.DataManager
 import com.irmansyah.myfootball.utils.ScProvider
-import com.irmansyah.myfootball.utils.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
 
 abstract class BasePresenter<V : MVPView> internal constructor(var dataManager: DataManager, var scProvider: ScProvider) {

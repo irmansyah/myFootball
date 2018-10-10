@@ -5,8 +5,6 @@ import com.irmansyah.myfootball.data.model.Player
 import com.irmansyah.myfootball.data.model.PlayerResponse
 import com.irmansyah.myfootball.ui.detailTeam.player.TeamPlayerPresenter
 import com.irmansyah.myfootball.ui.detailTeam.player.TeamPlayerView
-import com.irmansyah.myfootball.ui.player.PlayerPresenter
-import com.irmansyah.myfootball.ui.player.PlayerView
 import com.irmansyah.myfootball.utils.EspressoIdlingResource
 import com.irmansyah.myfootball.utils.rx.TestSchedulerProvider
 import io.reactivex.Single

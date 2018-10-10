@@ -25,11 +25,6 @@ class FavoriteTeamAdapter(private val favorites: ArrayList<FavoriteTeam>) : Recy
         notifyDataSetChanged()
     }
 
-    fun clearList() {
-        this.favorites.clear()
-        notifyDataSetChanged()
-    }
-
     override fun getItemCount(): Int = favorites.size
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavoriteTeamAdapter.FavoriteViewHolder =

@@ -9,7 +9,6 @@ import android.support.annotation.RequiresApi
 import android.support.v4.content.ContextCompat
 import android.util.Log
 import android.view.Gravity
-import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import com.irmansyah.myfootball.R
@@ -17,9 +16,7 @@ import com.irmansyah.myfootball.R.id.*
 import com.irmansyah.myfootball.data.db.database
 import com.irmansyah.myfootball.data.model.FavoriteMatch
 import com.irmansyah.myfootball.data.model.Match
-import com.irmansyah.myfootball.data.model.Team
 import com.irmansyah.myfootball.ui.base.BaseActivity
-import kotlinx.coroutines.experimental.selects.select
 import org.jetbrains.anko.*
 import org.jetbrains.anko.db.classParser
 import org.jetbrains.anko.db.delete

@@ -1,7 +1,6 @@
 package com.irmansyah.myfootball.utils.rx
 
 import com.irmansyah.myfootball.utils.ScProvider
-import com.irmansyah.myfootball.utils.SchedulerProvider
 import io.reactivex.*
 import io.reactivex.schedulers.TestScheduler
 
@@ -30,10 +29,6 @@ class TestSchedulerProvider(private val mTestScheduler: TestScheduler) : ScProvi
     override fun <T> ioToMainMaybeScheduler(): MaybeTransformer<T, T> = MaybeTransformer { upstream ->
         upstream.subscribeOn(io())
                 .observeOn(ui())
-    }
-
-    fun computation(): Scheduler {
-        return mTestScheduler
     }
 
     fun io(): Scheduler {

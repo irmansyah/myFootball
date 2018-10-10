@@ -10,7 +10,6 @@ import android.widget.TextView
 import com.irmansyah.myfootball.R
 import com.irmansyah.myfootball.R.id.*
 import com.irmansyah.myfootball.data.model.Match
-import com.irmansyah.myfootball.ui.match.next.NextMatchAdapter
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 

@@ -1,6 +1,5 @@
 package com.irmansyah.myfootball.utils.extension
 
-import android.graphics.Bitmap
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 
@@ -9,8 +8,4 @@ import com.bumptech.glide.Glide
  */
 internal fun ImageView.loadImage(url: String) {
     if (!url.isEmpty()) { Glide.with(this.context).load(url).asBitmap().centerCrop().into(this) }
-}
-
-internal fun ImageView.loadImage(bitmap: Bitmap) {
-    Glide.with(this.context).load(bitmap).asBitmap().centerCrop().into(this)
 }

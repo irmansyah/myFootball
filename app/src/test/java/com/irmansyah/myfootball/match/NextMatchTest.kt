@@ -1,28 +1,22 @@
 package com.irmansyah.myfootball.match
 
 import com.irmansyah.myfootball.data.DataManager
-import com.irmansyah.myfootball.data.api.ApiHelper
-import com.irmansyah.myfootball.data.api.AppApiHelper
 import com.irmansyah.myfootball.data.model.Match
 import com.irmansyah.myfootball.data.model.MatchResponse
 import com.irmansyah.myfootball.ui.match.next.NextMatchPresenter
 import com.irmansyah.myfootball.ui.match.next.NextMatchView
 import com.irmansyah.myfootball.utils.EspressoIdlingResource
-import com.irmansyah.myfootball.utils.SchedulerProvider
 import com.irmansyah.myfootball.utils.rx.TestSchedulerProvider
 import io.reactivex.Single
 import io.reactivex.schedulers.TestScheduler
 import org.junit.Before
 import org.junit.Test
-import org.junit.runner.RunWith
-import org.koin.android.ext.android.inject
 import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.MockitoAnnotations
 
 import org.mockito.Mockito.doReturn
 import org.mockito.Mockito.verify
-import org.mockito.junit.MockitoJUnitRunner
 
 class NextMatchTest {
 

@@ -13,7 +13,6 @@ import com.irmansyah.myfootball.ui.favorite.FavoriteFragment
 import com.irmansyah.myfootball.ui.match.MatchFragment
 import com.irmansyah.myfootball.ui.match.NextMatchCallback
 import com.irmansyah.myfootball.ui.match.PrevMatchCallback
-import com.irmansyah.myfootball.ui.match.next.NextMatchFragment
 import com.irmansyah.myfootball.ui.team.TeamFragment
 import org.jetbrains.anko.*
 import org.jetbrains.anko.design.bottomNavigationView

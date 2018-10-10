@@ -1,6 +1,5 @@
 package com.irmansyah.myfootball
 
-import android.app.Activity
 import android.app.Application
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.interceptors.HttpLoggingInterceptor

@@ -17,7 +17,6 @@ import org.jetbrains.anko.design.snackbar
 class AppDbHelper(private val context: Context) : DbHelper {
 
     private var mMatch: Match? = null
-    private var team: Team? = null
     private var isFavoritedMatch: Boolean = false
     private var isFavoritedTeam: Boolean = false
 

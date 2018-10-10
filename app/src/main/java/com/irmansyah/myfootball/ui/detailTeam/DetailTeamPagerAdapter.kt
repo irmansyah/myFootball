@@ -22,7 +22,7 @@ class DetailTeamPagerAdapter(fragmentManager: FragmentManager) : FragmentStatePa
         }
     }
 
-    internal fun setCount(count: Int) {
+    fun setCount(count: Int) {
         this.tabCount = count
     }
 

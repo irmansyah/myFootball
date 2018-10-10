@@ -3,7 +3,6 @@ package com.irmansyah.myfootball.ui.detailTeam.player
 
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,7 +23,6 @@ class TeamPlayerFragment : BaseFragment(), TeamPlayerView, PlayerCallback {
     companion object {
 
         const val TAG = "TeamPlayerFragment"
-        const val TEAM_ID = "TEAM_ID"
 
         fun newInstance(): TeamPlayerFragment = TeamPlayerFragment()
     }

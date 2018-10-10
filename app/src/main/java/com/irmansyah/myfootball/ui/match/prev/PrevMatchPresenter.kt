@@ -5,7 +5,6 @@ import com.irmansyah.myfootball.data.DataManager
 import com.irmansyah.myfootball.ui.base.BasePresenter
 import com.irmansyah.myfootball.utils.EspressoIdlingResource
 import com.irmansyah.myfootball.utils.ScProvider
-import com.irmansyah.myfootball.utils.SchedulerProvider
 
 class PrevMatchPresenter<V : PrevMatchView> constructor(dataManager: DataManager, scProvider: ScProvider, private val idlingResource: EspressoIdlingResource) : BasePresenter<V>(dataManager = dataManager, scProvider = scProvider) {
 

@@ -6,13 +6,10 @@ import android.support.design.widget.TabLayout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
 
 import com.irmansyah.myfootball.R
 import com.irmansyah.myfootball.ui.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_favorite.*
-import org.jetbrains.anko.support.v4.ctx
 
 class FavoriteFragment : BaseFragment() {
 
@@ -22,8 +19,6 @@ class FavoriteFragment : BaseFragment() {
     }
 
     private lateinit var favoritePagerAdapter: FavoritePagerAdapter
-
-    private var leagueName: String = ""
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

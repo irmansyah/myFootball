@@ -4,7 +4,6 @@ import android.util.Log
 import com.irmansyah.myfootball.data.DataManager
 import com.irmansyah.myfootball.ui.base.BasePresenter
 import com.irmansyah.myfootball.utils.ScProvider
-import com.irmansyah.myfootball.utils.SchedulerProvider
 import java.util.concurrent.TimeUnit
 
 class SearchMatchPresenter<V : SearchMatchView> constructor(dataManager: DataManager, scProvider: ScProvider) : BasePresenter<V>(dataManager = dataManager, scProvider = scProvider) {

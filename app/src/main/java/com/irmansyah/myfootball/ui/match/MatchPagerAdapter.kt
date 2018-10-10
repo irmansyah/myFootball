@@ -22,7 +22,7 @@ class MatchPagerAdapter(fragmentManager: FragmentManager) : FragmentStatePagerAd
         }
     }
 
-    internal fun setCount(count: Int) {
+    fun setCount(count: Int) {
         this.tabCount = count
     }
 

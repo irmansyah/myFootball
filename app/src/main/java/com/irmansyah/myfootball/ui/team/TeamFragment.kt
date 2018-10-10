@@ -13,8 +13,8 @@ import com.irmansyah.myfootball.data.model.Team
 import com.irmansyah.myfootball.ui.base.BaseFragment
 import com.irmansyah.myfootball.ui.detailTeam.DetailTeamActivity
 import com.irmansyah.myfootball.ui.main.MainActivity
-import com.training.scoreboard.utils.extension.gone
-import com.training.scoreboard.utils.extension.visible
+import com.irmansyah.myfootball.utils.extension.gone
+import com.irmansyah.myfootball.utils.extension.visible
 import kotlinx.android.synthetic.main.fragment_team.*
 import org.jetbrains.anko.support.v4.ctx
 import org.jetbrains.anko.support.v4.onRefresh

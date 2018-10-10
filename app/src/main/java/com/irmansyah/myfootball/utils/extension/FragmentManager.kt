@@ -1,4 +1,4 @@
-package com.irmansyah.masjid_finder.utils.extension
+package com.irmansyah.myfootball.utils.extension
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager

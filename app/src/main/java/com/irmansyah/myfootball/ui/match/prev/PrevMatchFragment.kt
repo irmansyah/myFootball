@@ -21,8 +21,8 @@ import com.irmansyah.myfootball.ui.detailMatch.DetailMatchActivity
 import com.irmansyah.myfootball.ui.main.MainActivity
 import com.irmansyah.myfootball.ui.match.MatchFragment
 import com.irmansyah.myfootball.ui.match.PrevMatchCallback
-import com.training.scoreboard.utils.extension.invisible
-import com.training.scoreboard.utils.extension.visible
+import com.irmansyah.myfootball.utils.extension.invisible
+import com.irmansyah.myfootball.utils.extension.visible
 import org.jetbrains.anko.*
 import org.jetbrains.anko.recyclerview.v7.recyclerView
 import org.jetbrains.anko.support.v4.ctx

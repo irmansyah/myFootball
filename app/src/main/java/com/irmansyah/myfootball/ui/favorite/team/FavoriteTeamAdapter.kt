@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import com.irmansyah.myfootball.R
 import com.irmansyah.myfootball.data.model.FavoriteTeam
 import com.irmansyah.myfootball.ui.base.BaseViewHolder
-import com.training.scoreboard.utils.extension.loadImage
+import com.irmansyah.myfootball.utils.extension.loadImage
 import kotlinx.android.synthetic.main.item_club.view.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 

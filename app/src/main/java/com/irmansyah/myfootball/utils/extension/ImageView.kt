@@ -1,8 +1,6 @@
-package com.training.scoreboard.utils.extension
+package com.irmansyah.myfootball.utils.extension
 
 import android.graphics.Bitmap
-import android.os.Build
-import android.support.annotation.RequiresApi
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 

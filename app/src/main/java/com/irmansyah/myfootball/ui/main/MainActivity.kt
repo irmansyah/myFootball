@@ -5,7 +5,7 @@ import android.support.design.widget.BottomNavigationView
 import android.view.Gravity
 import android.view.MenuItem
 import android.widget.LinearLayout
-import com.irmansyah.masjid_finder.utils.extension.replaceFragment
+import com.irmansyah.myfootball.utils.extension.replaceFragment
 import com.irmansyah.myfootball.R
 import com.irmansyah.myfootball.R.id.*
 import com.irmansyah.myfootball.ui.base.BaseActivity

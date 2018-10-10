@@ -1,5 +1,6 @@
 package com.irmansyah.myfootball.ui.search
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
@@ -33,18 +34,16 @@ class SearchMatchActivity : BaseActivity(), SearchMatchView {
         search_match_list_rv.adapter = mAdapter
     }
 
+    @SuppressLint("CheckResult")
     private fun setSearchView() {
         search_match_search_view.showSearch()
-        search_match_search_view.setOnQueryTextListener(object : MaterialSearchView.OnQueryTextListener {
-            override fun onQueryTextSubmit(query: String): Boolean {
-                return true
-            }
+        search_match_search_view.createObservable()
+                .compose(presenter.scProvider.ioToMainObservableScheduler())
+                .subscribe {
 
-            override fun onQueryTextChange(newText: String): Boolean {
-                presenter.setSearchMatch(newText)
-                return true
-            }
-        })
+                    presenter.setSearchMatch(it)
+
+                }
 
         search_match_search_view.setOnSearchViewListener(object : MaterialSearchView.SearchViewListener {
             override fun onSearchViewClosed() {

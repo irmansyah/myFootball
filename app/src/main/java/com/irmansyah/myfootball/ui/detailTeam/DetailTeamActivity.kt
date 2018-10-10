@@ -11,7 +11,7 @@ import com.irmansyah.myfootball.data.model.Team
 import com.irmansyah.myfootball.ui.base.BaseActivity
 import com.irmansyah.myfootball.ui.match.OverviewCallback
 import com.irmansyah.myfootball.ui.match.PlayerCallback
-import com.training.scoreboard.utils.extension.loadImage
+import com.irmansyah.myfootball.utils.extension.loadImage
 import kotlinx.android.synthetic.main.activity_detail_team.*
 import org.jetbrains.anko.db.classParser
 import org.jetbrains.anko.db.delete

@@ -13,8 +13,8 @@ import com.irmansyah.myfootball.data.model.FavoriteTeam
 import com.irmansyah.myfootball.data.model.Team
 import com.irmansyah.myfootball.ui.base.BaseFragment
 import com.irmansyah.myfootball.ui.detailTeam.DetailTeamActivity
-import com.training.scoreboard.utils.extension.invisible
-import com.training.scoreboard.utils.extension.visible
+import com.irmansyah.myfootball.utils.extension.invisible
+import com.irmansyah.myfootball.utils.extension.visible
 import kotlinx.android.synthetic.main.fragment_favorite_team.*
 import org.jetbrains.anko.db.classParser
 import org.jetbrains.anko.db.select

@@ -1,4 +1,4 @@
-package com.training.scoreboard.utils.extension
+package com.irmansyah.myfootball.utils.extension
 
 import android.view.View
 

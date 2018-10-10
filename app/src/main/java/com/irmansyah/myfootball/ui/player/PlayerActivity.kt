@@ -4,7 +4,7 @@ import android.os.Bundle
 import com.irmansyah.myfootball.R
 import com.irmansyah.myfootball.data.model.Player
 import com.irmansyah.myfootball.ui.base.BaseActivity
-import com.training.scoreboard.utils.extension.loadImage
+import com.irmansyah.myfootball.utils.extension.loadImage
 import kotlinx.android.synthetic.main.activity_player.*
 import org.koin.android.ext.android.inject
 
